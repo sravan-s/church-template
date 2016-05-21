@@ -181,7 +181,7 @@ a, a:link, a:hover, a:active {
 .events .content {
   box-sizing: border-box;
   color: #a1949b;
-  background: #362b31 url("/assets/bg-img1.png") left bottom no-repeat;
+  background: #362b31 url("../../assets/bg-img1.png") left bottom no-repeat;
   height: 460px;
   text-align: right; }
 
