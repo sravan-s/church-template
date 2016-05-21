@@ -1,0 +1,252 @@
+body {
+  background: transparent url("/assets/parallax.jpg") bottom no-repeat fixed;
+  height: 100%;
+  margin: 0; }
+
+a, a:link, a:hover, a:active {
+  color: inherit; }
+
+.main-header {
+  color: white;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 1; }
+  .main-header h1 {
+    font-family: "Tinos", serif;
+    font-size: 30px;
+    letter-spacing: 1em;
+    line-height: 1.5em;
+    margin: 0 auto;
+    padding-top: 175px;
+    position: relative;
+    width: 50%; }
+    .main-header h1:before {
+      background: transparent url("/assets/logo.png") center no-repeat;
+      content: "";
+      height: 100px;
+      left: calc(50% - 37px);
+      position: absolute;
+      top: 50px;
+      width: 50px; }
+  .main-header ul {
+    list-style: none;
+    margin-top: 30px;
+    padding-left: 0; }
+    .main-header ul li:first-child a {
+      pointer-events: none;
+      position: relative; }
+      .main-header ul li:first-child a:before, .main-header ul li:first-child a:after {
+        border-radius: 2px;
+        background-color: white;
+        content: "";
+        display: block;
+        height: 2px;
+        left: 0;
+        right: 0; }
+      .main-header ul li:first-child a:before {
+        top: 0;
+        transform: translateY(-5px); }
+      .main-header ul li:first-child a:after {
+        bottom: 0;
+        transform: translateY(5px); }
+  .main-header a {
+    display: inline-block;
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    letter-spacing: .5em;
+    margin-top: 10px;
+    padding: 10px;
+    text-decoration: none;
+    transition: all 1s ease; }
+    .main-header a:hover {
+      color: #c0b8aa; }
+
+.col3 {
+  display: inline-block;
+  width: 32%; }
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+
+.clearfix:after {
+  clear: both; }
+
+.events .contents {
+  background-color: #362b31; }
+
+.events .content-col {
+  min-height: 260px; }
+
+.feature-wrap {
+  min-height: 360px; }
+
+.features {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  width: 95%; }
+
+@keyframes zoom {
+  0% {
+    transform: scale(1); }
+  100% {
+    transform: scale(1.1); } }
+
+.cameraSlide img {
+  animation: zoom 10s infinite; }
+
+.col3 {
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: 'Playfair Display', serif;
+  width: 33%;
+  padding: 20px; }
+  .col3 h4 {
+    cursor: pointer;
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    position: relative; }
+    .col3 h4:before {
+      content: "";
+      position: absolute;
+      background-color: #a1949b;
+      height: 2px;
+      border-radius: 4px;
+      left: 0;
+      right: 100%;
+      bottom: -4px;
+      transition: all 1s ease; }
+    .col3 h4:hover:before {
+      right: 0; }
+  .col3 p {
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    margin-bottom: 20px; }
+  .col3 figure {
+    margin: 0;
+    position: relative;
+    width: 100%; }
+    .col3 figure img {
+      transition: all 1s ease;
+      width: 100%; }
+    .col3 figure:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #a1949b;
+      opacity: .5;
+      transition: all 1s ease; }
+    .col3 figure:hover img {
+      transform: scale(1.1); }
+    .col3 figure:hover:after {
+      transform: scale(1.1);
+      opacity: 0; }
+
+.main-footer {
+  box-sizing: border-box;
+  background-color: #e4ded4;
+  color: #c0b8aa;
+  padding-top: 110px;
+  position: relative; }
+  .main-footer .logo {
+    height: 260px;
+    margin: 0 auto;
+    text-align: center; }
+    .main-footer .logo:before {
+      background: url("/assets/logo2.png") center top no-repeat;
+      content: "";
+      height: 100px;
+      left: 0;
+      position: absolute;
+      top: 40px;
+      width: 100%; }
+    .main-footer .logo h2 {
+      font-family: "Playfair Display", serif;
+      font-size: 36px;
+      letter-spacing: 1em;
+      text-transform: uppercase; }
+
+.events .content {
+  box-sizing: border-box;
+  color: #a1949b;
+  background: #362b31 url("/assets/bg-img1.png") left bottom no-repeat;
+  height: 460px;
+  text-align: right; }
+
+.events .col3 {
+  width: 32%; }
+
+.events .wrapper {
+  display: inline-block;
+  text-align: left;
+  width: 55%; }
+
+.events h3 {
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  letter-spacing: .3em;
+  margin: 35px 0px 21px 20px;
+  text-transform: uppercase; }
+
+.events h5 {
+  font-size: 30px;
+  margin: 0; }
+
+.about {
+  box-sizing: border-box;
+  background: #362b31 url("/assets/Pretty-Church.jpg") right center no-repeat;
+  color: #a1949b;
+  height: 370px; }
+  .about .wrapper {
+    width: 50%; }
+    .about .wrapper h2 {
+      color: white;
+      font-family: "Playfair Display", serif;
+      font-size: 36px;
+      letter-spacing: .3em;
+      padding-top: 30px;
+      padding-left: 20px;
+      text-transform: uppercase; }
+    .about .wrapper p {
+      padding-left: 20px;
+      width: 85%; }
+
+.container {
+  margin: 0 auto;
+  width: 95%; }
+
+.go-up {
+  background: #a1949b;
+  border-radius: 50%;
+  bottom: 50px;
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.4);
+  color: white;
+  display: none;
+  height: 40px;
+  position: fixed;
+  right: 50px;
+  transition: all 1s ease;
+  width: 40px; }
+  .go-up:hover {
+    background-color: white;
+    color: #a1949b; }
+  .go-up.show-up {
+    display: inline-block; }
+
+.main-slider.vegas-container {
+  height: 105vh !important; }
+  .main-slider.vegas-container .vegas-slide {
+    animation: zoom 10s infinite; }

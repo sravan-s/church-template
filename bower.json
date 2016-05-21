@@ -1,0 +1,26 @@
+{
+  "name": "church2",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Sravan <sravans2011@gmail.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "owl.carousel": "^2.1.3"
+  },
+  "devDependencies": {
+    "vegas": "^2.2.1"
+  }
+}
