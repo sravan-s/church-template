@@ -1,5 +1,5 @@
 body {
-  background: transparent url("/assets/parallax.jpg") bottom no-repeat fixed;
+  background: transparent url("../../assets/parallax.jpg") bottom no-repeat fixed;
   height: 100%;
   margin: 0; }
 
@@ -25,7 +25,7 @@ a, a:link, a:hover, a:active {
     position: relative;
     width: 50%; }
     .main-header h1:before {
-      background: transparent url("/assets/logo.png") center no-repeat;
+      background: transparent url("../../assets/logo.png") center no-repeat;
       content: "";
       height: 100px;
       left: calc(50% - 37px);
@@ -165,7 +165,7 @@ a, a:link, a:hover, a:active {
     margin: 0 auto;
     text-align: center; }
     .main-footer .logo:before {
-      background: url("/assets/logo2.png") center top no-repeat;
+      background: url("../../assets/logo2.png") center top no-repeat;
       content: "";
       height: 100px;
       left: 0;
@@ -207,7 +207,7 @@ a, a:link, a:hover, a:active {
 
 .about {
   box-sizing: border-box;
-  background: #362b31 url("/assets/Pretty-Church.jpg") right center no-repeat;
+  background: #362b31 url("../../assets/Pretty-Church.jpg") right center no-repeat;
   color: #a1949b;
   height: 370px; }
   .about .wrapper {
